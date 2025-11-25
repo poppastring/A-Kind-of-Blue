@@ -8,12 +8,12 @@ namespace AKindOfBlue
 {
     internal sealed partial class Vsix
     {
-        public const string Id = "BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4";
+        public const string Id = "AKindOfBlue.3a323a8c-789f-442b-a07a-c240a819753e";
         public const string Name = "Blue Steel Theme";
-        public const string Description = @"The original Blue theme from Visual Studio 2022 now updated to Fluent Design. Requires Visual Studio 2022 v17.9 or newer";
+        public const string Description = @"Improvised version of the the original Blue theme found in Visual Studio 2022. Requires Visual Studio 2022+";
         public const string Language = "en-US";
-        public const string Version = "1.0.1";
-        public const string Author = "Mads Kristensen";
+        public const string Version = "1.0";
+        public const string Author = "poppastring";
         public const string Tags = "theme";
         public const bool IsPreview = false;
     }
