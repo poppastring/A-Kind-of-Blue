@@ -9,8 +9,8 @@ namespace AKindOfBlue
     internal sealed partial class Vsix
     {
         public const string Id = "AKindOfBlue.3a323a8c-789f-442b-a07a-c240a819753e";
-        public const string Name = "Blue Steel Theme";
-        public const string Description = @"Improvised version of the the original Blue theme found in Visual Studio 2022. Requires Visual Studio 2022+";
+        public const string Name = "A Kind Of Blue Theme Pack";
+        public const string Description = @"A suite of Visual Studio 2022+ themes inspired by iconic 'blue' moods in jazz. Each theme balances readability with atmosphere, offering developers a palette that reflects improvisation, focus, and creative flow.";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "poppastring";
