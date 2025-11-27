@@ -1,5 +1,5 @@
 <Themes>
-	<Theme Name="A Kind of Blue" GUID="{8c3f7a92-5d1e-4b8a-9f2c-6e4d3a1b5c7f}" FallbackId="{a4d6a176-b948-4b37-8c62-430540675230}">
+	<Theme Name="A Kind Of Blue" GUID="{8c3f7a92-5d1e-4b8a-9f2c-6e4d3a1b5c7f}" FallbackId="{a4d6a176-b948-4b37-8c62-430540675230}">
 		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
 			<Color Name="AccentFillDefault">
 				<Background Type="CT_RAW" Source="FFCCD5F0" /> <!-- Selected window border, also accent on Search -->
@@ -44,4 +44,123 @@
 			</Color>
 		</Category>
 	</Theme>
+
+	<Theme Name="Blue Train" GUID="{5B876D23-F5B7-49B5-B466-2D50AF552FF7}" FallbackId="{a4d6a176-b948-4b37-8c62-430540675230}">
+		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+			<Color Name="AccentFillDefault">
+				<Background Type="CT_RAW" Source="FFA8B8DC" />
+				<!-- Selected window border - darker blue -->
+			</Color>
+			<Color Name="AccentFillSecondary">
+				<Background Type="CT_RAW" Source="FFA8B8DC" />
+				<!-- Accent secondary - darker blue -->
+			</Color>
+			<Color Name="AccentFillTertiary">
+				<Background Type="CT_RAW" Source="FFA8B8DC" />
+				<!-- Accent tertiary - darker blue -->
+			</Color>
+			<Color Name="SolidBackgroundFillTertiary">
+				<Background Type="CT_RAW" Source="FFE8EAEF" />
+				<!-- Slightly darker gray -->
+			</Color>
+			<Color Name="SolidBackgroundFillQuaternary">
+				<Background Type="CT_RAW" Source="FFF5F5F5" />
+				<!-- Slightly darker white -->
+			</Color>
+			<Color Name="SurfaceBackgroundFillDefault">
+				<Background Type="CT_RAW" Source="FFF5F5F5" />
+				<!-- Slightly darker editor background -->
+			</Color>
+			<Color Name="TextFillPrimary">
+				<Background Type="CT_RAW" Source="FF000000" />
+				<!-- Keep text black for readability -->
+			</Color>
+			<Color Name="TextFillSecondary">
+				<Background Type="CT_RAW" Source="FF000000" />
+				<!-- Keep text black for readability -->
+			</Color>
+		</Category>
+		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentBackground">
+				<Background Type="CT_RAW" Source="FFB0BEE0" />
+				<!-- Darker periwinkle blue IDE background -->
+			</Color>
+			<Color Name="EnvironmentBorder">
+				<Background Type="CT_RAW" Source="FFB0BEE0" />
+				<!-- Darker IDE border -->
+			</Color>
+			<Color Name="EnvironmentIndicator">
+				<Background Type="CT_RAW" Source="D9334B75" />
+				<!-- More visible darker blue indicator (85% opacity) -->
+			</Color>
+			<Color Name="EnvironmentLogo">
+				<Background Type="CT_RAW" Source="FF7038B8" />
+				<!-- Slightly darker purple VS Logo -->
+			</Color>
+			<Color Name="EnvironmentLayeredBackground">
+				<Background Type="CT_RAW" Source="33485880" />
+				<!-- Darker toolbars/tabs (20% opacity) -->
+			</Color>
+		</Category>
+	</Theme>
+
+	<Theme Name="Born To Be Blue" GUID="{BF9B7FD5-DF8B-4438-90CD-8970B3118408}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+			<Color Name="AccentFillDefault">
+				<Background Type="CT_RAW" Source="FF4A90D9" />
+				<!-- Bright blue accent for selections -->
+			</Color>
+			<Color Name="AccentFillSecondary">
+				<Background Type="CT_RAW" Source="E54A90D9" />
+				<!-- Bright blue accent secondary (90% opacity) -->
+			</Color>
+			<Color Name="AccentFillTertiary">
+				<Background Type="CT_RAW" Source="CC4A90D9" />
+				<!-- Bright blue accent tertiary (80% opacity) -->
+			</Color>
+			<Color Name="SolidBackgroundFillTertiary">
+				<Background Type="CT_RAW" Source="FF1B2838" />
+				<!-- Dark navy for tabs/panels -->
+			</Color>
+			<Color Name="SolidBackgroundFillQuaternary">
+				<Background Type="CT_RAW" Source="FF1B2838" />
+				<!-- Dark navy background -->
+			</Color>
+			<Color Name="SurfaceBackgroundFillDefault">
+				<Background Type="CT_RAW" Source="FF1E2A3B" />
+				<!-- Dark blue editor background -->
+			</Color>
+			<Color Name="TextFillPrimary">
+				<Background Type="CT_RAW" Source="FFE8E8E8" />
+				<!-- Light gray text -->
+			</Color>
+			<Color Name="TextFillSecondary">
+				<Background Type="CT_RAW" Source="B2E8E8E8" />
+				<!-- Light gray secondary text (70% opacity) -->
+			</Color>
+		</Category>
+		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentBackground">
+				<Background Type="CT_RAW" Source="FF1B2838" />
+				<!-- Dark navy IDE background -->
+			</Color>
+			<Color Name="EnvironmentBorder">
+				<Background Type="CT_RAW" Source="FF0D2847" />
+				<!-- Very dark navy borders -->
+			</Color>
+			<Color Name="EnvironmentIndicator">
+				<Background Type="CT_RAW" Source="FF4A90D9" />
+				<!-- Bright blue indicator -->
+			</Color>
+			<Color Name="EnvironmentLogo">
+				<Background Type="CT_RAW" Source="FF5D3FD3" />
+				<!-- Deep purple VS Logo -->
+			</Color>
+			<Color Name="EnvironmentLayeredBackground">
+				<Background Type="CT_RAW" Source="1A293E5C" />
+				<!-- Deep blue toolbars/tabs (10% opacity) -->
+			</Color>
+		</Category>
+	</Theme>
+	
 </Themes>
