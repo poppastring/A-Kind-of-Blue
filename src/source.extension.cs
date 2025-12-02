@@ -12,7 +12,7 @@ namespace AKindOfBlue
         public const string Name = "A Kind Of Blue Theme Pack";
         public const string Description = @"A suite of Visual Studio 2022+ themes inspired by iconic 'blue' moods in jazz. Each theme balances readability with atmosphere, offering developers a palette that reflects focus, and creative flow.";
         public const string Language = "en-US";
-        public const string Version = "1.0";
+        public const string Version = "1.0.1";
         public const string Author = "poppastring";
         public const string Tags = "theme";
         public const bool IsPreview = false;
